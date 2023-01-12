@@ -17,7 +17,7 @@
 		"tab.inactiveBackground":"#232635",
 		"activityBar.border":"#232635",
 		"activityBar.background":"#232635",
-		"sideBar.foreground":"#151414",
+		"sideBar.foreground":"#f0f0f0",
 		"sideBar.background":"#232635",
 		"toolbar.activeBackground":"#ff0000",
 		"toolbar.hoverOutline":"#ff0000",
