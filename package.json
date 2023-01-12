@@ -1,0 +1,40 @@
+{
+    "name": "GoosePlusPlus",
+    "displayName": "GoosePlusPlus",
+    "description": "Elegent Colorscheme for VScode users",
+    "version": "0.0.1",
+    "publisher": "hgooseVSC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hgoose/GoosePlusPlus"
+    },
+    "keywords": [
+        "theme",
+        "dark",
+        "goose",
+        "pink",
+        "high contrast",
+        "purple",
+        "goosemane",
+        "noodle",
+        "coder",
+        "noodl",
+        "rust",
+        "c++"
+    ],
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "GoosePlusPlus",
+                "uiTheme": "hc-black",
+                "path": "./themes/goose-color-theme.json"
+            }
+        ]
+    }
+}
