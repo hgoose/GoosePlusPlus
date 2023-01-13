@@ -248,8 +248,8 @@
 			"name": "Keyword, Storage",
 			"scope": [
 				"keyword",
-				// "storage.type",
-				// "storage.modifier"
+				"storage.type",
+				"storage.modifier"
 			],
 			"settings": {
 				"foreground": "#ff00ff"
@@ -296,7 +296,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#af0000
+				"foreground": "#af0000"
 			}
 		},
 		{
@@ -371,7 +371,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#f0f0f0"
+				"foreground": "#ff00ff"
 			}
 		},
 		{
