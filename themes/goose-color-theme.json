@@ -54,9 +54,9 @@
     	"sideBar.foreground": "#6C739A",
     	"sideBar.border": "#282B3C",
     	"sideBarTitle.foreground": "#eeffff",
-    	"sideBarSectionHeader.background": "#292D3E",
+    	"sideBarSectionHeader.background": "#1b1d27",
     	"sideBarSectionHeader.foreground": "#eeffff",
-    	"editorGroup.background": "#32374C",
+    	"editorGroup.background": "#1b1d27",
     	"editorGroup.border": "#2E3245",
     	"editorGroup.dropBackground": "#7e57c273",
     	"editorGroupHeader.noTabsBackground": "#32374C",
@@ -231,7 +231,7 @@
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#f9ff3c"
 			}
 		},
 		{
@@ -262,6 +262,9 @@
 				"constant.other.color",
 				"punctuation",
 				"meta.tag",
+				"punctuation.definition.group.end",
+				"punctuation.definition.bracket.begin",
+				"punctuation.definition.bracket.end",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
@@ -289,6 +292,7 @@
 		{
 			"name": "Function",
 			"scope": [
+				"entity.name.function",
 				"meta.function-call",
 				"support.function"
 			],
@@ -297,9 +301,18 @@
 			}
 		},
 		{
+      	  "name": "Python Function Call",
+      	  "scope": [
+				"meta.function-call.python",
+				"meta.function-call.generic.python"
+      	  ],
+      	  	"settings": {
+        		"foreground": "#45ffc8"
+      	  }
+    	},
+		{
 			"name": "Special Method",
 			"scope": [
-				"entity.name.function",
 				"keyword.other.special-method"
 			],
 			"settings": {
@@ -344,6 +357,9 @@
 		{
 			"name": "String, Symbols, Inherited Class, Markup Heading",
 			"scope": [
+				"punctuation.definition.string.begin.python",
+				"string.quoted.docstring.multi.python",
+				"source.python",
 				"string",
 				// "constant.other.symbol",
 				"constant.other.key",
