@@ -287,11 +287,9 @@
 			}
 		},
 		{
-			"name": "FunctionMethod",
+			"name": "Function",
 			"scope": [
 				"meta.function-call",
-				"entity.name.function",
-				"variable.function",
 				"support.function"
 			],
 			"settings": {
@@ -301,6 +299,7 @@
 		{
 			"name": "Special Method",
 			"scope": [
+				"entity.name.function",
 				"keyword.other.special-method"
 			],
 			"settings": {
