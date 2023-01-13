@@ -289,18 +289,18 @@
 		{
 			"name": "FunctionMethod",
 			"scope": [
+				"meta.function-call",
 				"entity.name.function",
 				"variable.function",
-				"support.function",
+				"support.function"
 			],
 			"settings": {
-				"foreground": "#5f00ff"
+				"foreground": "#45FFC8"
 			}
 		},
 		{
 			"name": "Special Method",
 			"scope": [
-				"meta.function-call",
 				"keyword.other.special-method"
 			],
 			"settings": {
