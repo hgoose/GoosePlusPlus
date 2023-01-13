@@ -248,8 +248,8 @@
 			"name": "Keyword, Storage",
 			"scope": [
 				"keyword",
-				"storage.type",
-				"storage.modifier"
+				// "storage.type",
+				// "storage.modifier"
 			],
 			"settings": {
 				"foreground": "#ff00ff"
@@ -338,12 +338,12 @@
 			"name": "String, Symbols, Inherited Class, Markup Heading",
 			"scope": [
 				"string",
-				"constant.other.symbol",
+				// "constant.other.symbol",
 				"constant.other.key",
 				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+				// "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
 				"foreground": "#FFCB6B"
@@ -371,7 +371,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#f0f0f0"
 			}
 		},
 		{
