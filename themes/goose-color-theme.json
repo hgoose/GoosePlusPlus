@@ -222,7 +222,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#0ddddd"
+				"foreground": "#af0000"
 			}
 		},
 		{
@@ -296,7 +296,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#0f82ed"
+				"foreground": "#af0000
 			}
 		},
 		{
