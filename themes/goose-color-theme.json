@@ -287,16 +287,24 @@
 			}
 		},
 		{
-			"name": "Function, Special Method",
+			"name": "FunctionMethod",
 			"scope": [
 				"entity.name.function",
-				"meta.function-call",
 				"variable.function",
 				"support.function",
+			],
+			"settings": {
+				"foreground": "#5f00ff"
+			}
+		},
+		{
+			"name": "Special Method",
+			"scope": [
+				"meta.function-call",
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#af0000"
+				"foreground": "#ff000d"
 			}
 		},
 		{
