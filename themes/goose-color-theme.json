@@ -52,7 +52,7 @@
     	"activityBarBadge.foreground": "#ffffff",
     	"sideBar.background": "#1B1D27",
     	"sideBar.foreground": "#6C739A",
-    	"sideBar.border": "#282B3C",
+    	"sideBar.border": "#1b1d27",
     	"sideBarTitle.foreground": "#eeffff",
     	"sideBarSectionHeader.background": "#1b1d27",
     	"sideBarSectionHeader.foreground": "#eeffff",
@@ -357,8 +357,8 @@
 		{
 			"name": "String, Symbols, Inherited Class, Markup Heading",
 			"scope": [
-				"punctuation.definition.string.begin.python",
-				"string.quoted.docstring.multi.python",
+				// "punctuation.definition.string.begin.python",
+				// "string.quoted.docstring.multi.python",
 				"source.python",
 				"string",
 				// "constant.other.symbol",
