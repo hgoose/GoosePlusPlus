@@ -2,7 +2,6 @@
 	"name": "goose",
 	"type": "dark",
 	"colors": {
-		"python.linting.pylance.underlineStyle": null, 
 		"contrastActiveBorder": null,
     	"contrastBorder": "#282B3C",
     	"focusBorder": "#282B3C",
@@ -76,7 +75,7 @@
     	"editor.foreground": "#ffffff",
     	"editorLineNumber.foreground": "#4c5374",
     	"editorLineNumber.activeForeground": "#eeffff",
-    	"editorCursor.foreground": "#7e57c2",
+    	"editorCursor.foreground": "#ffffff",
     	"editorCursor.background": null,
     	"editor.selectionBackground": "#7580B850",
     	"editor.selectionForeground": "#ffffff",
@@ -233,7 +232,6 @@
 			"name": "Variables",
 			"scope": [
 				"variable",
-				"string constant.other.placeholder"
 			],
 			"settings": {
 				"foreground": "#f0f0f0"
