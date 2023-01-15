@@ -141,8 +141,8 @@
     	"merge.incomingHeaderBackground": "#7e57c25a",
     	"merge.incomingContentBackground": null,
     	"merge.border": null,
-    	"panel.background": "#292D3E",
-    	"panel.border": "#282B3C",
+    	"panel.background": "#1b1d27",
+    	"panel.border": "#1b1d27",
     	"panelTitle.activeBorder": "#1b1d27",
     	"panelTitle.activeForeground": "#eeffff",
     	"panelTitle.inactiveForeground": "#bfc7d580",
@@ -202,6 +202,9 @@
     	"breadcrumb.focusForeground": "#bfc7d5",
     	"breadcrumb.activeSelectionForeground": "#eeffff",
     	"breadcrumbPicker.background": "#292D3E"
+    	"editorBracketHighlight.foreground1": "#ffffff",
+    	"editorBracketHighlight.foreground2": "#ffffff",
+    	"editorBracketHighlight.unexpectedBracket.foreground": "#ffffff"
 	},
 	"tokenColors": [
 		{
