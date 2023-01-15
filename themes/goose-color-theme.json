@@ -201,7 +201,7 @@
     	"breadcrumb.foreground": "#6c739a",
     	"breadcrumb.focusForeground": "#bfc7d5",
     	"breadcrumb.activeSelectionForeground": "#eeffff",
-    	"breadcrumbPicker.background": "#292D3E"
+    	"breadcrumbPicker.background": "#292D3E",
     	"editorBracketHighlight.foreground1": "#ffffff",
     	"editorBracketHighlight.foreground2": "#ffffff",
     	"editorBracketHighlight.unexpectedBracket.foreground": "#ffffff"
