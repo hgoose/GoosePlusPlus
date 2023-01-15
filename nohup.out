@@ -50,3 +50,7 @@ Optional module ./ElectronTestRpc was not included.
 [Modules] No module updates available.
 (node:37647) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 resume listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
 (Use `exe --trace-warnings ...` to show where the warning was created)
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+[Modules] No module updates available.

@@ -249,12 +249,42 @@
 		},
 		{
 			"name": "Invalid",
-			"scope": [
-				"invalid",
-				"invalid.illegal"
-			],
+			"scope": "invalid",
 			"settings": {
-				"foreground": "#FF5370"
+        		"background": "#ff2c83",
+        		"foreground": "#ffffff"
+      		}
+    	},
+    	{
+			"name": "Invalid deprecated",
+			"scope": "invalid.deprecated",
+			"settings": {
+        		"foreground": "#ffffff",
+        		"background": "#d3423e"
+      		}
+      	},
+		{
+      	  	"name": "Invalid Broken",
+      	  	"scope": "invalid.broken",
+      	  	"settings": {
+        		"foreground": "#020e14",
+        		"background": "#F78C6C"
+      	  	}
+    	},
+    	{
+			"name": "Invalid Unimplemented",
+			"scope": "invalid.unimplemented",
+			"settings": {
+        		"background": "#8BD649",
+        		"foreground": "#ffffff"
+      	  	}
+    	},
+		{
+			"name": "Invalid Illegal",
+			"scope": "invalid.illegal",
+			"settings": {
+				"foreground": "#ffffff",
+				"background": "#ec5f67"
 			}
 		},
 		{
@@ -317,14 +347,38 @@
 			}
 		},
 		{
+			"name": "Null",
+			"scope": "constant.language.null",
+			"settings": {
+        		"foreground": "#ff5874"
+      		}
+    	},
+		{
+			"name": "Boolean",
+			"scope": "constant.language.boolean",
+			"settings": {
+        		"foreground": "#ff5874"
+      		}
+    	},
+		{
 			"name": "Python Function Call",
 			"scope": [
 				"meta.function-call.python",
 				"meta.function-call.generic.python"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#56b6c2"
 			}
+		},
+		{
+			"name": "Python Function Parameter and Arguments",
+			"scope": [
+				"variable.parameter.function.python",
+				"meta.function-call.arguments.python"
+		  	],
+		  	"settings": {
+				"foreground": "#e06c75"
+		  }
 		},
 		{
 			"name": "Block Level Variables",
