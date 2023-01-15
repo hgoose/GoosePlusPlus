@@ -359,6 +359,13 @@
         		"foreground": "#ff5874"
       		}
     	},
+    	{
+			"name": "Language Constants in Python",
+			"scope": "constant.language.python",
+			"settings": {
+        		"foreground": "#ff5874"
+      		}
+    	},
 		{
 			"name": "Python Function Call",
 			"scope": [
@@ -380,12 +387,19 @@
 		  }
 		},
 		{
+			"name": "Decorator Functions in Python",
+			"scope": "entity.name.function.decorator.python",
+			"settings": {
+        		"foreground": "#ffcb6b"
+      		}
+    	},
+		{
 			"name": "Block Level Variables",
 			"scope": [
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#ff000d"
+				"foreground": "#e06c75"
 			}
 		},
 		{
