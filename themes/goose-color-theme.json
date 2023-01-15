@@ -2,6 +2,7 @@
 	"name": "goose",
 	"type": "dark",
 	"colors": {
+		"python.linting.pylance.underlineStyle": null, 
 		"contrastActiveBorder": null,
     	"contrastBorder": "#282B3C",
     	"focusBorder": "#282B3C",
