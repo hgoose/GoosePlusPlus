@@ -302,34 +302,28 @@
 				"foreground": "#f07178"
 			}
 		},
-		{
-			"name": "Function",
-			"scope": [
-				"entity.name.function",
-				"meta.function-call",
-				"support.function"
-			],
+    	{
+			"name": "Function name",
+			"scope": "entity.name.function",
 			"settings": {
-				"foreground": "#45FFC8"
+				"foreground": "#61afef"
+			}
+    	},
+		{
+			"name": "Function Parameters",
+			"scope": "variable.parameter",
+			"settings": {
+				"foreground": "#e06c75"
 			}
 		},
 		{
-      	  "name": "Python Function Call",
-      	  "scope": [
+			"name": "Python Function Call",
+			"scope": [
 				"meta.function-call.python",
 				"meta.function-call.generic.python"
-      	  ],
-      	  	"settings": {
-        		"foreground": "#45ffc8"
-      	  }
-    	},
-		{
-			"name": "Special Method",
-			"scope": [
-				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#FF6982"
+				"foreground": "#B2CCD6"
 			}
 		},
 		{
