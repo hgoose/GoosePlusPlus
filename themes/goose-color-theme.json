@@ -302,7 +302,7 @@
 			"scope": [
 
 				"constant.other.color",
-				"punctuation",
+				//"punctuation",
 				"meta.tag",
 				"punctuation.definition.group.end",
 				"punctuation.definition.bracket.begin",
@@ -345,6 +345,13 @@
 				"foreground": "#e06c75"
 			}
 		},
+		{
+			"name": "Variable Parameter Function",
+			"scope": "variable.parameter.function",
+			"settings": {
+        		"foreground": "#e06c75"
+      		}
+    	},
 		{
 			"name": "Null",
 			"scope": "constant.language.null",
