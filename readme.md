@@ -15,3 +15,10 @@ GoosePlusPlus is an elegent theme designed by hgoose for Vscode users.
 
 #### Filetypes
 Originally designed for python files but works well for other filetypes
+
+### Vim Themes
+Checkout my themes made for vim
+
+* [Goose](https://github.com/hgoose/goose.vim)
+ 
+* [Temple](https://github.com/hgoose/temple.vim)
