@@ -214,7 +214,8 @@
            		"punctuation.definition.string.end"
            	],
             "settings": {
-                "foreground": "#FFCB6B"
+                //"foreground": "#FFCB6B"
+                "foreground": "#8BD649"
             }
         },
 		{
@@ -342,14 +343,16 @@
 			"name": "Function Parameters",
 			"scope": "variable.parameter",
 			"settings": {
-				"foreground": "#e06c75"
+				//"foreground": "#e06c75"
+				"foreground": "#FFF667"
 			}
 		},
 		{
 			"name": "Variable Parameter Function",
 			"scope": "variable.parameter.function",
 			"settings": {
-        		"foreground": "#e06c75"
+        		//"foreground": "#e06c75"
+        		"foreground": "#FFF667"
       		}
     	},
 		{
@@ -380,7 +383,8 @@
 				"meta.function-call.generic.python"
 			],
 			"settings": {
-				"foreground": "#56b6c2"
+				//"foreground": "#56b6c2"
+				"foreground": "#FFCB6B"
 			}
 		},
 		{
@@ -390,7 +394,8 @@
 				"meta.function-call.arguments.python"
 		  	],
 		  	"settings": {
-				"foreground": "#e06c75"
+		  		//"foreground": "#e06c75",
+				"foreground": "#FFF667"
 		  }
 		},
 		{
@@ -447,7 +452,8 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				//"foreground": "#FFCB6B"
+				"foreground": "#8BD649"
 			}
 		},
 		{
@@ -472,7 +478,8 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#ff00ff"
+				//"foreground": "#ff00ff"
+				"foreground": "#ffffff"
 			}
 		},
 		{
